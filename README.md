@@ -1,2 +1,0 @@
-# FitTrackr
-testing.

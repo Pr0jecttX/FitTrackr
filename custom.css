@@ -1,0 +1,68 @@
+/* Custom styles to complement Bootstrap */
+[data-bs-theme=dark] {
+    --bs-body-bg: #1a1a1a;
+}
+
+.hero-section {
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.workout-card {
+    transition: transform 0.2s;
+}
+
+.workout-card:hover {
+    transform: translateY(-5px);
+}
+
+.bmi-calculator {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.exercise-image {
+    height: 200px;
+    object-fit: cover;
+}
+
+.profile-section {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.auth-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.exercise-list {
+    margin-top: 1rem;
+}
+
+.exercise-item {
+    padding: 0.5rem;
+    border-bottom: 1px solid var(--bs-border-color);
+}
+
+.exercise-item:last-child {
+    border-bottom: none;
+}
+
+.nav-pills .nav-link.active {
+    background-color: var(--bs-primary);
+}
